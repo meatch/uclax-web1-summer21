@@ -1,8 +1,8 @@
 /*===================================
-|| 
+||
 || This is just to test some of the features of this app
 || More than likely you will be removing this for your app
-|| 
+||
 ===================================*/
 
 import React, { useEffect } from 'react';
@@ -22,7 +22,7 @@ const Test = () => {
 
     return (
         <TestStyled className='Test'>
-            Test 
+            Mitchell Gohman
         </TestStyled>
     );
 }
