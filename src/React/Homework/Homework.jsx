@@ -17,7 +17,7 @@ const Homework = () => {
                     Github: Reposotories: A place to push our code and play well with others.
                 </p>
                 <p>
-                    Heroku:
+                    Heroku: Github with Web Server (Deployment)
                 </p>
             </Essay>
             <Essay
