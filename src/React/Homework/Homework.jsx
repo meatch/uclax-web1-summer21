@@ -24,6 +24,14 @@ const Homework = () => {
                 number={ 2 }
                 question='Explain the difference between HTML, CSS and JS.'
             >
+                <p>HTML (Structure): Hypertext Markup Language: Paragraphs documents, images, videos</p>
+                <p>CSS (Appearance): Cascading Style Sheets, Visual appeal - Brand Presence, Visual Hierarchy, and Defines Value</p>
+                <p>JavaScript (Behaves): function of a website, action or call to action</p>
+            </Essay>
+            <Essay
+                number={ 3 }
+                question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
+            >
                 My answer is as follows
             </Essay>
         </div>
