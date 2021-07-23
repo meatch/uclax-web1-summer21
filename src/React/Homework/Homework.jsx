@@ -32,7 +32,18 @@ const Homework = () => {
                 number={ 3 }
                 question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
             >
-                My answer is as follows
+                <ul>
+                    <li>Do not have to keep reloading the page. Less bandwidth.</li>
+                    <li>SEO: Common myth is that searche engines cannot index sub pages. They are smart enough to do that.</li>
+                    <li>Cross Site Script is an issue regardlkess of Multi or SPA apps.</li>
+                    <li>API calls and JS being able to load content on the fly, and only that which it needs.</li>
+                </ul>
+            </Essay>
+            <Essay
+                number={ 4 }
+                question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+            >
+                Answer will go here...
             </Essay>
         </div>
     );
