@@ -5,7 +5,9 @@ const Tabbed = () => {
 
     return (
         <TabbedStyled className='Tabbed'>
-            Tabbed
+            <div className="inset-container">
+                Tabbed
+            </div>
         </TabbedStyled>
     );
 }

@@ -47,7 +47,14 @@ const Homework = () => {
                 number={ 4 }
                 question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
             >
-                Answer will go here...
+
+                <ul>
+                    <li><b>UX: Web Designer:</b> Visual look of a website and interactive design work.</li>
+                    <li><b>Front End Developer:</b> All of the programming related to HTML, CSS and JS.</li>
+                    <li><b>Back End Developer:</b> programming server side apps (e.g. PHP, python, Database, Seceurity)</li>
+                </ul>
+
+
             </Essay>
         </div>
     );
