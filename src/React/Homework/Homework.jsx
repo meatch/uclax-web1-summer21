@@ -1,12 +1,20 @@
 import React from 'react';
 
+import { useMediaQuery } from 'common/mediaQueries/useMediaQuery.js';
+
 import Essay from './Essay.jsx';
 import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
 
 const Homework = () => {
+
+    const { media } = useMediaQuery();
+
+    console.log('media', media);
+
     return (
         <div>
-            <SunAndMoon />
+
+            { media.mdUp && <SunAndMoon /> }
 
             <h2>HOMEWORK</h2>
 
@@ -47,14 +55,23 @@ const Homework = () => {
                 number={ 4 }
                 question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
             >
-
                 <ul>
                     <li><b>UX: Web Designer:</b> Visual look of a website and interactive design work.</li>
                     <li><b>Front End Developer:</b> All of the programming related to HTML, CSS and JS.</li>
                     <li><b>Back End Developer:</b> programming server side apps (e.g. PHP, python, Database, Seceurity)</li>
                 </ul>
-
-
+            </Essay>
+            <Essay
+                number={ 5 }
+                question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+            >
+                Answer here
+            </Essay>
+            <Essay
+                number={ 6 }
+                question='What is the difference between jpg, gif, png and SVG images?'
+            >
+                Answer here
             </Essay>
         </div>
     );
