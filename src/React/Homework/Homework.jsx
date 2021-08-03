@@ -63,15 +63,24 @@ const Homework = () => {
             </Essay>
             <Essay
                 number={ 5 }
-                question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+                question='Distinguish the difference between Site Relative, Document Relative, and Absolute Paths'
             >
-                Answer here
+                <ul>
+                    <li><b>Site Relative:</b> Path is devised from the root of the site, instead of document.</li>
+                    <li><b>Document Relative:</b> Paths locating files, from current working directory.</li>
+                    <li><b>Absolute Paths:</b> Fully Resolved URL includes https://full-path/to/resource.jpg</li>
+                </ul>
             </Essay>
             <Essay
                 number={ 6 }
                 question='What is the difference between jpg, gif, png and SVG images?'
             >
-                Answer here
+                <ul>
+                    <li><b>JPG:</b> Joint Photographic Experts Group (Bitmap), Proprietary Lossy compression. Millions of colors.</li>
+                    <li><b>GIF:</b> Graphic Interchange Format: (Bitmap): Supports animation, Supports up 256 Colors (logos, flat graphics), transparency</li>
+                    <li><b>PNG:</b> Portable Graphics Group: True Alpha Transparency (million so colors), Lossless compression. 256 color just like gif</li>
+                    <li><b>SVG:</b> Scalable Vector Graphics: Logos, Line Art, Icons - Vector, not bitmapped. XML files. No loss of integrity at size, light</li>
+                </ul>
             </Essay>
         </div>
     );

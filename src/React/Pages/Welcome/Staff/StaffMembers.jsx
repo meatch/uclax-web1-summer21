@@ -9,7 +9,7 @@ import StaffMember from './StaffMember.jsx';
 
 const StaffMembers = () => {
 
-    console.log('staffData', staffData);
+    // console.log('staffData', staffData);
 
     return (
         <StaffMembersStyled className='StaffMembers'>
