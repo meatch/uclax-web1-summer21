@@ -82,6 +82,12 @@ const Homework = () => {
                     <li><b>SVG:</b> Scalable Vector Graphics: Logos, Line Art, Icons - Vector, not bitmapped. XML files. No loss of integrity at size, light</li>
                 </ul>
             </Essay>
+            <Essay
+                number={ 7 }
+                question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
+            >
+                Answer goes here.
+            </Essay>
         </div>
     );
 }
