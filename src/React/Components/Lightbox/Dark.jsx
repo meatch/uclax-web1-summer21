@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 
 import Light from './Light.jsx';
 
-const Dark = () => {
+const Dark = ({showLightUpdate, children}) => {
+
+    useEffect(() => {
+        const handeOnKeyDown = (event) => {
+
+            if (event.keyCode === 27) {
+                showLightUpdate(false);
+            }
+        }
+
+        document.addEventListener("keydown", handeOnKeyDown, false);
+
+        return () => {
+            document.removeEventListener("keydown", handeOnKeyDown, false);
+        }
+
+    }, []);
 
     return (
         <DarkStyled className='Dark'>
-            <Light />
+            <Light  showLightUpdate={ showLightUpdate }>
+                { children }
+            </Light>
         </DarkStyled>
     );
 }

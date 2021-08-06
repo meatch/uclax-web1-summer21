@@ -84,9 +84,15 @@ const Homework = () => {
             </Essay>
             <Essay
                 number={ 7 }
-                question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
+                question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX Designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
             >
-                Answer goes here.
+                <li><b>Project Manager:</b> In charge of planning, resources, and project delivery.</li>
+                <li><b>Business Analyst:</b> Analyzes Prior and existing business data to improve decision making process.</li>
+                <li><b>Scrum Master:</b>  Managed communication between team members, keeps the sprint moving along - agile processes. (Derived: Rugby) </li>
+                <li><b>UX Designer:</b> User Experience Designer: Research User Analysis, Usability, User Flow Prototypes and Journeys, Content Strategy, Visual Designer </li>
+                <li><b>Web Developer/Engineer:</b> Designing and developing web applications. Functionality/features - and security</li>
+                <li><b>Quality Assurance Tester:</b> QA automated and manual tests. Ensures the integrity of existing features work, and ensure new features. </li>
+                <li><b>DevOps:</b> Connects development and operations team - creates Hardware and Software to deliver applications.</li>
             </Essay>
         </div>
     );
