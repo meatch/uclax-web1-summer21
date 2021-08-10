@@ -94,6 +94,24 @@ const Homework = () => {
                 <li><b>Quality Assurance Tester:</b> QA automated and manual tests. Ensures the integrity of existing features work, and ensure new features. </li>
                 <li><b>DevOps:</b> Connects development and operations team - creates Hardware and Software to deliver applications.</li>
             </Essay>
+            <Essay
+                number={ 8 }
+                question='What is considered the right size for an image or video asset?'
+            >
+                Depends on the content/space dimensions - lower image quality. - Avatars for example, vs hero, vs thumbnails.
+                Resolution would depend on to meet the requirements of video, perhaps default to 16x9.
+                File size - keeping it at small as possible unless necessary.
+                Hero 1500x2500 pixels
+                30-40 Seconds long - duration
+                25 - 30MB max
+                Optimize for UX and SEO, accessibility.
+            </Essay>
+            <Essay
+                number={ 9 }
+                question='What does it mean for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
+            >
+                ANSWER GOES HERE
+            </Essay>
         </div>
     );
 }
