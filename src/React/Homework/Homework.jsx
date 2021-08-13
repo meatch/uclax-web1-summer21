@@ -110,6 +110,31 @@ const Homework = () => {
                 number={ 9 }
                 question='What does it mean for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
             >
+                <p>
+                    In general, moving in smaller increments, to implement those changes on a much faster cycle.
+                    Meant to also icnlude all stakeholders in planning and implementation process.
+                    Adapting to ever changing needs (Market, Customer, internal and external demands).
+
+                    Iterative deployments of portions.
+
+                    Efficiency of cost without compromising quality.
+
+                    Waterfall is the oppositte of Agile. Super linear - it's a more comprehensivie and holistic approach.
+
+
+
+                </p>
+
+                <ul>
+                    <li>Con: End user experience changes - contact changes</li>
+                    <li>Con: More time and effort to get things done</li>
+                    <li>Con: Often it developers are unable to work on other things -locked into a particular project</li>
+                </ul>
+            </Essay>
+            <Essay
+                number={ 10 }
+                question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
+            >
                 ANSWER GOES HERE
             </Essay>
         </div>
