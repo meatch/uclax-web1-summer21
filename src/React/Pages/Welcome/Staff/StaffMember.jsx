@@ -14,9 +14,11 @@ const  StaffMember = ({member}) => {
         );
     }
 
+    const width = '300px';
+
     return (
-        < StaffMemberStyled className=' StaffMember'>
-            <Lightbox LightboxContent={ LightboxContent }>
+        <StaffMemberStyled className='StaffMember'>
+            <Lightbox LightboxContent={ LightboxContent } width={ width }>
                 <img src={ member.image } alt={ member.name } />
                 <h3>{ member.name }</h3>
             </Lightbox>

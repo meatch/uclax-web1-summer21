@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import Light from './Light.jsx';
 
-const Dark = ({showLightUpdate, children}) => {
+const Dark = ({showLightUpdate, children, width}) => {
 
     useEffect(() => {
         const handeOnKeyDown = (event) => {
@@ -23,7 +23,7 @@ const Dark = ({showLightUpdate, children}) => {
 
     return (
         <DarkStyled className='Dark'>
-            <Light  showLightUpdate={ showLightUpdate }>
+            <Light  showLightUpdate={ showLightUpdate } width={ width }>
                 { children }
             </Light>
         </DarkStyled>

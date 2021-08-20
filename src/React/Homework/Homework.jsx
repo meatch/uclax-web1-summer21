@@ -137,6 +137,24 @@ const Homework = () => {
             >
                 ANSWER GOES HERE
             </Essay>
+            <Essay
+                number={ 11 }
+                question='Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'
+            >
+                <p>
+                    Images are part of the content when they support the information (HTML).
+                </p>
+
+                <p>
+                    CSS leverages images in background for the look of things.
+                </p>
+            </Essay>
+            <Essay
+                number={ 12 }
+                question={ `What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)` }
+            >
+                ANSWER GOES HERE
+            </Essay>
         </div>
     );
 }

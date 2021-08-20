@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import UniversalForm from 'React/Components/UniversalForm/UniversalForm.jsx'
+
 const ContactForm = () => {
 
     return (
         <ContactFormStyled className='ContactForm'>
-            ContactForm
+            <UniversalForm />
         </ContactFormStyled>
     );
 }
@@ -13,5 +15,5 @@ const ContactForm = () => {
 export default ContactForm;
 
 const ContactFormStyled = styled.div`
-
+    padding: 20px;
 `;
