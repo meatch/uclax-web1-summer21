@@ -5,9 +5,13 @@ import UniversalForm from 'React/Components/UniversalForm/UniversalForm.jsx'
 
 const ContactForm = () => {
 
+    const defaultFormData = {
+        fullname: 'Dummy Data',
+    }
+
     return (
         <ContactFormStyled className='ContactForm'>
-            <UniversalForm />
+            <UniversalForm defaultFormData={ defaultFormData } />
         </ContactFormStyled>
     );
 }

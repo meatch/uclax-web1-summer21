@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 import Input from '../Controls/Input.jsx';
 
-const FormControl = ({ inputName, handleUpdate }) => {
+const FormControl = () => {
 
     return (
         <FormControlStyled className='FormControl'>
-            <Input inputName={ inputName } handleUpdate={ handleUpdate } />
+            <Input />
         </FormControlStyled>
     );
 }
