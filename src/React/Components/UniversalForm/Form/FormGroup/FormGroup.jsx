@@ -4,12 +4,12 @@ import styled from 'styled-components';
 import FormLabel from './FormLabel.jsx';
 import FormControl from './FormControl.jsx';
 
-const FormGroup = () => {
+const FormGroup = ({ control }) => {
 
     return (
         <FormGroupStyled className='FormGroup'>
-            <FormLabel />
-            <FormControl />
+            <FormLabel control={ control } />
+            <FormControl control={ control } />
         </FormGroupStyled>
     );
 }
@@ -17,5 +17,5 @@ const FormGroup = () => {
 export default FormGroup;
 
 const FormGroupStyled = styled.div`
-
+    margin-bottom: 15px;
 `;
