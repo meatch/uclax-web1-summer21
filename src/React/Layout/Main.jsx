@@ -39,6 +39,4 @@ export default Main;
 const MainStyled = styled.main`
     background-color: #d3c795;
     padding: 10px;
-
-
 `;

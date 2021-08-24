@@ -32,18 +32,4 @@ const EssayStyled = styled.div`
     }
 
 
-    li {
-        color: white;
-        background-color: blue;
-    }
-
-    #timbukthree {
-        background-color: orange;
-    }
-
-    .timbukthree {
-        background-color: pink;
-    }
-
-
 `;
