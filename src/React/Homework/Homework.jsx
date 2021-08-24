@@ -135,7 +135,15 @@ const Homework = () => {
                 number={ 10 }
                 question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
             >
-                ANSWER GOES HERE
+                <p>Testing environments: Server environments that mimic production to test our code before deployment.</p>
+
+                <ul>
+                    <li><b>Local:</b> Your local machine for developing the application.</li>
+                    <li><b>Dev:</b> Shared server for devs to test and code review.</li>
+                    <li><b>QA:</b> Quality Assuarance team manually evaluates and automation tests help with mundane tasks.</li>
+                    <li><b>UAT:</b> User Accpetance Testing: Clients can review before their customers see it in production.</li>
+                    <li><b>Production:</b> Live/Public site. end users use this version.</li>
+                </ul>
             </Essay>
             <Essay
                 number={ 11 }
@@ -152,6 +160,17 @@ const Homework = () => {
             <Essay
                 number={ 12 }
                 question={ `What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)` }
+            >
+                <ol>
+                    <li id="timbuktu" className="timbukthree"><b>IDs</b> Unique label assigned to html elements.</li>
+                    <li className="timbukthree"><b>Classes</b> A label assigned to multiple html elements.</li>
+                    <li><b>Tags</b> any HTML tag used to mark up the content. We can add labels (id and classes) to target with more specificity.</li>
+                    <li><b>Specificity</b> 2 or more conflicting rules, the browser determines which one is more specific.</li>
+                </ol>
+            </Essay>
+            <Essay
+                number={ 13 }
+                question={ `What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?` }
             >
                 ANSWER GOES HERE
             </Essay>

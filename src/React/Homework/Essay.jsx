@@ -30,4 +30,20 @@ const EssayStyled = styled.div`
         padding: 10px;
         background-color: #eee;
     }
+
+
+    li {
+        color: white;
+        background-color: blue;
+    }
+
+    #timbukthree {
+        background-color: orange;
+    }
+
+    .timbukthree {
+        background-color: pink;
+    }
+
+
 `;
