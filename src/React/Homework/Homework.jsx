@@ -172,7 +172,28 @@ const Homework = () => {
                 number={ 13 }
                 question={ `What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?` }
             >
-                ANSWER GOES HERE
+                <ul>
+                    <li>What is a CSS Preprocessor? Managing CSS in a more dynamic way, with scripting.</li>
+                    <li>What are some examples? Sass, Less, Stylus</li>
+                    <li>In React, what are styled components? JS Component that contains CSS styling (scoped style) </li>
+                    <li>How do Styled Components violate separation of concerns? It puts HTML/CSS/JS into a single space/component.</li>
+                </ul>
+            </Essay>
+            <Essay
+                number={ 14 }
+                question={ `Final Project Defined` }
+            >
+                Subject matter for your final project is up to you as long as it meets the functional requirements laid out in the Final Project description.
+
+                It will be challenging to know how to fulfill on Final Project requirements since I still need to show you how to do them. However, please know that the requirements are more about features than subject. In other words, it is more important to pick a project, than to have it all worked out.
+
+                Whatever subject you choose we will tailor to fit the requirements of the final.
+
+                By next session pick a subject for your Final Project and write 2-3 paragraphs that answers:
+
+                Who is the client? (e.g. Me, a friend of mine starting a business, Coffee Bean, Made Up Widget Company)
+                What is it's purpose? (e.g. an online brochure for a coffee shop, to promote my portfolio work)
+                Why did you choose this subject?
             </Essay>
         </div>
     );
