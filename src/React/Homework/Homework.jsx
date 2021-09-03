@@ -195,6 +195,24 @@ const Homework = () => {
                 What is it's purpose? (e.g. an online brochure for a coffee shop, to promote my portfolio work)
                 Why did you choose this subject?
             </Essay>
+            <Essay
+                number={ 15 }
+                question={ `What is the difference between Web Hosts, Domains, and FTP?` }
+            >
+                <ul>
+                    <li><b>Web Hosts:</b> A place to publish your work for the rest of the world to see.</li>
+                    <li><b>Domains:</b> Website alias that maps to the IP address of a given Web Host to match your served up content.</li>
+                    <li><b>FTP:</b> File Transfer Protocol - transferring files between computers.</li>
+                </ul>
+            </Essay>
+            <Essay
+                number={ 15 }
+                question={ `What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?` }
+            >
+                <p>
+                    A <b>Package Manager</b>
+                </p>
+            </Essay>
         </div>
     );
 }
