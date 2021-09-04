@@ -210,7 +210,9 @@ const Homework = () => {
                 question={ `What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?` }
             >
                 <p>
-                    A <b>Package Manager</b>
+                    A <b>Package Manager</b> is a something used to share libraries of a given panguage. Each package represents a library/feature set.
+                    Package managers also handle versioning to ensure that dependencies are locked in for a given app. This reduces the chances of it
+                    working on once system, but not another.
                 </p>
             </Essay>
         </div>
