@@ -206,7 +206,7 @@ const Homework = () => {
                 </ul>
             </Essay>
             <Essay
-                number={ 15 }
+                number={ 16 }
                 question={ `What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?` }
             >
                 <p>
